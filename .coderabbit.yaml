@@ -1,0 +1,8 @@
+version: 3
+reviews:
+  output:
+    review_info: true
+  behavior:
+    multi_repo_analysis:
+      automatic_linking_mode: disabled
+      linked_repositories: []
