@@ -1,0 +1,10 @@
+version: 3
+reviews:
+  output:
+    review_info: true
+  behavior:
+    multi_repo_analysis:
+      automatic_linking_mode: disabled
+      linked_repositories:
+        - repository: cr-test1/parcel-intake-contract
+          instructions: Check outbound wire values against the receiving service in parcel_intake.py.
