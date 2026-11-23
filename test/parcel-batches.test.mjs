@@ -12,3 +12,7 @@ test("keeps dispatch order and the partial final batch", () => {
 test("rejects a capacity that cannot advance the batch", () => {
   assert.throws(() => batchParcels(["north"], 0), RangeError);
 });
+
+test("rejects an individual parcel label instead of splitting its characters", () => {
+  assert.throws(() => batchParcels("north", 2), TypeError);
+});
