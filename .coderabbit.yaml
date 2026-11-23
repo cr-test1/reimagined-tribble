@@ -1,0 +1,12 @@
+version: 3
+inheritance: false
+reviews:
+  auto_review:
+    enabled: true
+  output:
+    review_details: true
+    summary:
+      placement: walkthrough
+fun:
+  art: true
+  in_progress_fortune: true
