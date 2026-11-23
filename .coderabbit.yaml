@@ -4,3 +4,5 @@ reviews:
   review_details: true
   auto_review:
     enabled: true
+    base_branches:
+      - "^hasit/config-source-v2-control-20261123$"
